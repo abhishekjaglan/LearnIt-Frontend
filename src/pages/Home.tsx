@@ -1,5 +1,7 @@
 import NavBar from "../components/NavBar"
 import SideBar from "../components/SideBar"
+import UrlParsing from "../components/UrlParsing"
+import WelcomeBar from "../components/WelcomeBar"
 
 function Home() {
   return (
@@ -9,14 +11,17 @@ function Home() {
             <NavBar/>
         </div>
         {/* Body below navbar */}
-        <div className="flex">
+        <div className="flex flex-row">
             {/* SideBar */}
-            <div>
+            <div className="w-[320px] min-h-screen">
                 <SideBar/>
             </div>
             {/* URL Parsing Body */}
-            <div>
-              
+            <div className="flex flex-col flex-1 -ml-1">
+                <WelcomeBar/>
+                <div className="min-h-screen">
+                  <UrlParsing/>
+                </div>
             </div>
         </div>
     </div>
