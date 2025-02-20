@@ -16,7 +16,7 @@ function Home() {
             </div>
             {/* URL Parsing Body */}
             <div>
-
+              
             </div>
         </div>
     </div>
