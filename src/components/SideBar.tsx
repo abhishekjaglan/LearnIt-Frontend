@@ -16,9 +16,9 @@ function SideBar() {
             <img src={hamburgerIcon} alt="hamburger" className='w-auto h-10 p-1' />
           </div>
           {/* Sidebar element - userinfo */}
-          <SidebarElement Icon={UserInfoIcon} Text='User Info'/>
+          <SidebarElement Icon={UserInfoIcon} Text='User Info' LinkTo='/userinfo'/>
           {/* Sidebar element - logout */}
-          <SidebarElement Icon={logOutIcon} Text='LogOut'/>
+          <SidebarElement Icon={logOutIcon} Text='LogOut' LinkTo='landingpage'/>
         </div>
     </div>
   )
