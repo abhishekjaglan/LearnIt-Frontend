@@ -5,9 +5,9 @@ import WelcomeBar from "../components/WelcomeBar"
 
 function Home() {
   return (
-    <div>
+    <div className="bg-black">
         {/* Navbar */}
-        <div>
+        <div className="rounded-lg">
             <NavBar/>
         </div>
         {/* Body below navbar */}
@@ -18,8 +18,10 @@ function Home() {
             </div>
             {/* URL Parsing Body */}
             <div className="flex flex-col flex-1 -ml-1">
-                <WelcomeBar/>
-                <div className="min-h-screen">
+                <div className="rounded-lg bg-white">
+                  <WelcomeBar/> 
+                </div>
+                <div className="min-h-screen rounded-lg bg-white">
                   <UrlParsing/>
                 </div>
             </div>

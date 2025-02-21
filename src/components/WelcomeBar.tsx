@@ -1,10 +1,10 @@
 
 function WelcomeBar() {
   return (
-    <div className="bg-black p-1">
-        <div className="bg-black rounded-lg w-full border-2 border-white p-2">
+    <div className=" p-3 pt-2 pb-2 rounded-lg">
+        <div className="rounded-lg w-full border-4 border-black p-2">
             <div>
-                <div className="text-white text-5xl font-bold bg-black p-2">
+                <div className="text-black text-5xl font-bold p-2 pt-2">
                     Welcome Abhishek
                 </div>
             </div>

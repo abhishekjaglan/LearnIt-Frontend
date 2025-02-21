@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function NavBar() {
   return (
-    <div className="bg-black p-1">
+    <div className="bg-black p-3 pb-2 rounded-lg">
         {/* Navbar body */}
         <div className="flex justify-between items-baseline bg-black border-2 border-white rounded-lg">
             {/* Icon Section */}

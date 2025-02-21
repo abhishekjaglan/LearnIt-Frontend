@@ -8,7 +8,7 @@ import SidebarElement from './SidebarElement'
 function SideBar() {
   return (
     // Div wrapping the side bar
-    <div className="p-1 bg-black w-[316px] h-full ">
+    <div className="p-3 pt-2 bg-black w-[316px] h-full ">
         {/* Main div for sidebar */}
         <div className="flex-col space-y-20 bg-black h-full border-2 border-white rounded-lg">
           {/* hamnburger Icon */}
