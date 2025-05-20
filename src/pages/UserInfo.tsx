@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar"
+import NavBar from "../components/NavBarMain"
 import SideBar from "../components/SideBar"
 
 function UserInfo() {

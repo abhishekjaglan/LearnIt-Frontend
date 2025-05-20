@@ -1,14 +1,14 @@
-import NavBar from "../components/NavBar"
+import NavBarMain from "../components/NavBarMain"
 import SideBar from "../components/SideBar"
 import UrlParsing from "../components/UrlParsing"
 import WelcomeBar from "../components/WelcomeBar"
 
 function Home() {
   return (
-    <div className="bg-black">
+    <div >
         {/* Navbar */}
-        <div className="rounded-lg">
-            <NavBar/>
+        <div className=" w-full">
+            <NavBarMain/>
         </div>
         {/* Body below navbar */}
         <div className="flex flex-row">
