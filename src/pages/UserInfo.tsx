@@ -1,5 +1,5 @@
-import NavBar from "../components/NavBarMain"
-import SideBar from "../components/SideBar"
+import NavBar from "../components/legacy/NavBarMain"
+import SideBar from "../components/legacy/SideBar"
 
 function UserInfo() {
   return (

@@ -1,7 +1,7 @@
-import NavBarMain from "../components/NavBarMain"
-import SideBar from "../components/SideBar"
-import UrlParsing from "../components/UrlParsing"
-import WelcomeBar from "../components/WelcomeBar"
+import NavBarMain from "../components/legacy/NavBarMain"
+import SideBar from "../components/legacy/SideBar"
+import UrlParsing from "../components/legacy/UrlParsing"
+import WelcomeBar from "../components/legacy/WelcomeBar"
 
 function Home() {
   return (

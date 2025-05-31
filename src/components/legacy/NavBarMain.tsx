@@ -46,7 +46,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import { navListMenuItems } from "../lib/constants";
+import { navListMenuItems } from "../../lib/constants";
 
  
 
